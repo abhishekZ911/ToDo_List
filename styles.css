@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: #00425A;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.8em;
+}
+.function{
+    position: inherit;
+    right: 5%;
+    width: 15%;
+}
+
+.function button{
+    font-size: 0.8em;
+    padding: 2% 17%;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-section{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 60px;
+}
+
+.todo-input{
+    padding: 1% 3%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 2em;
+}
