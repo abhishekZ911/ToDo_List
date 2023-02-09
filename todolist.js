@@ -18,7 +18,7 @@ const handleEnter = (ele) => {
 
 const addTodo = (todoName) =>{
     let todoList = document.getElementsByClassName('unchecked')[0];
-    todoList.insertAdjacentHTML('beforeend', '<div class="todo-item todo-item-uncheck"><div class="left-side"><input type="checkbox" class="checkbox" onclick="checkedFunction(this)">    <div class="todo-name-uncheck"></div></div><div class="right-side"><i class="fa-solid fa-star"></i><i class="fa-solid fa-bookmark"></i><i class="fa-solid fa-circle-xmark" onclick="deleteTodo(this)"></i></div></div>');
+    todoList.insertAdjacentHTML('beforeend', '<div class="todo-item todo-item-uncheck"><div class="left-side"><input type="checkbox" class="checkbox" onclick="checkedFunction(this)">    <div class="todo-name-uncheck"></div></div><div class="right-side"><i class="fa-solid fa-circle-xmark" onclick="deleteTodo(this)"></i></div></div>');
 
     var todoNameDivs = document.getElementsByClassName('todo-name-uncheck');
     var len = todoNameDivs.length;
